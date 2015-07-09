@@ -44,7 +44,7 @@ header {
     background: url('../img/head_girl.png');
   }
   h1 {
-    font-family: 'Roboto Condensed';
+    font-family: "Arial Narrow", sans-serif;
     font-size: 33px;
     font-weight: normal;
 
@@ -58,7 +58,7 @@ header {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
   }
   h2 {
-    font-family: 'Roboto Condensed';
+    font-family: "Arial Narrow", sans-serif;
     font-size: 32px;
     font-weight: normal;
 
@@ -87,7 +87,7 @@ header {
 
     list-style: none;
     li {
-      font-family: 'Roboto Condensed';
+      font-family: "Arial Narrow", sans-serif;
       font-size: 17px;
       line-height: 16px;
 
@@ -115,7 +115,7 @@ header {
     }
   }
   h3 {
-    font-family: 'Roboto Condensed';
+    font-family: "Arial Narrow", sans-serif;
     font-size: 17px;
     font-weight: normal;
 
@@ -151,7 +151,7 @@ div.line {
 
     list-style: none;
     li {
-      font-family: 'Roboto Condensed';
+      font-family: "Arial Narrow", sans-serif;
       font-size: 20px;
 
       position: relative;
@@ -236,7 +236,7 @@ section {
     background: url('../img/form_bg.png') 50% 50% no-repeat;
     div {
       &.infoblock {
-        font-family: 'Roboto Condensed';
+        font-family: "Arial Narrow", sans-serif;
         font-size: 18px;
 
         position: absolute;
@@ -256,7 +256,7 @@ section {
         }
       }
       &.f {
-        font-family: 'Roboto Condensed';
+        font-family: "Arial Narrow", sans-serif;
         font-size: 20px;
 
         position: absolute;
@@ -264,7 +264,7 @@ section {
         color: #fff;
       }
       &.c {
-        font-family: 'Roboto Condensed';
+        font-family: "Arial Narrow", sans-serif;
         font-size: 16px;
 
         position: absolute;
@@ -275,7 +275,7 @@ section {
         position: absolute;
       }
       &.next {
-        font-family: 'Roboto Condensed';
+        font-family: "Arial Narrow", sans-serif;
         font-size: 22px;
         font-weight: bold;
         line-height: 48px;
@@ -307,7 +307,7 @@ section {
         height: 285px;
       }
       &.i input {
-        font-family: 'Roboto Condensed';
+        font-family: "Arial Narrow", sans-serif;
         font-size: 24px;
 
         position: absolute;
@@ -370,7 +370,7 @@ section {
       }
     }
     select {
-      font-family: 'Roboto Condensed';
+      font-family: "Arial Narrow", sans-serif;
       font-size: 24px;
       line-height: 33px;
 
@@ -531,7 +531,7 @@ section {
       }
       &.step5 div {
         &.f {
-          font-family: 'Roboto Condensed';
+          font-family: "Arial Narrow", sans-serif;
           font-size: 30px;
 
           top: 110px;
@@ -540,7 +540,8 @@ section {
           width: 600px;
         }
         &.c {
-          font-family: 'Roboto Condensed';
+          font-family: "Arial Narrow", sans-serif;
+
           font-size: 20px;
 
           top: 150px;
@@ -560,14 +561,14 @@ footer {
 
   width: 100%;
   min-width: 1200px;
-  height: 150px;
+  height: 100px;
   margin-top: -66px;
   padding-top: 25px;
 
   background: url('../img/line_bg.png');
   div {
     &.content {
-      font-family: 'Roboto Condensed';
+      font-family: "Arial Narrow", sans-serif;
       font-size: 14px;
 
       width: 980px;
