@@ -1,0 +1,1 @@
+!function(n){n.deparam=n.deparam||function(n){void 0===n&&(n=window.location.search);var e={};return n.replace(new RegExp("([^?=&]+)(=([^&#]*))?","g"),function(n,a,r,o){e[a]=o}),e}}(jQuery);
