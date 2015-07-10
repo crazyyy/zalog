@@ -75,9 +75,7 @@
               <div class="i i1">
                 <select name="region">
                   <option value="Москва">Москва</option>
-                  <option value="Санкт-Петербург">Санкт-Петербург</option>
                   <option value="Московская обл.">Московская обл.</option>
-                  <option value="Ленинградская обл.">Ленинградская обл.</option>
                 </select>
               </div>
               <div class="c c1">

@@ -36,15 +36,16 @@ header {
   div.girl {
     position: absolute;
     top: 0;
-    left: 705px;
+    right: 0;
 
-    width: 392px;
+    width: 495px;
     height: 366px;
 
     background: url('../img/head_girl.png');
+    background-repeat: no-repeat;
   }
   h1 {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Arial Narrow', sans-serif;
     font-size: 33px;
     font-weight: normal;
 
@@ -58,7 +59,7 @@ header {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
   }
   h2 {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Arial Narrow', sans-serif;
     font-size: 32px;
     font-weight: normal;
 
@@ -87,7 +88,7 @@ header {
 
     list-style: none;
     li {
-      font-family: "Arial Narrow", sans-serif;
+      font-family: 'Arial Narrow', sans-serif;
       font-size: 17px;
       line-height: 16px;
 
@@ -115,7 +116,7 @@ header {
     }
   }
   h3 {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Arial Narrow', sans-serif;
     font-size: 17px;
     font-weight: normal;
 
@@ -151,7 +152,7 @@ div.line {
 
     list-style: none;
     li {
-      font-family: "Arial Narrow", sans-serif;
+      font-family: 'Arial Narrow', sans-serif;
       font-size: 20px;
 
       position: relative;
@@ -237,7 +238,7 @@ section {
     button,
     div {
       &.infoblock {
-        font-family: "Arial Narrow", sans-serif;
+        font-family: 'Arial Narrow', sans-serif;
         font-size: 18px;
 
         position: absolute;
@@ -257,7 +258,7 @@ section {
         }
       }
       &.f {
-        font-family: "Arial Narrow", sans-serif;
+        font-family: 'Arial Narrow', sans-serif;
         font-size: 20px;
 
         position: absolute;
@@ -265,7 +266,7 @@ section {
         color: #fff;
       }
       &.c {
-        font-family: "Arial Narrow", sans-serif;
+        font-family: 'Arial Narrow', sans-serif;
         font-size: 16px;
 
         position: absolute;
@@ -276,7 +277,7 @@ section {
         position: absolute;
       }
       &.next {
-        font-family: "Arial Narrow", sans-serif;
+        font-family: 'Arial Narrow', sans-serif;
         font-size: 22px;
         font-weight: bold;
         line-height: 48px;
@@ -308,7 +309,7 @@ section {
         height: 285px;
       }
       &.i input {
-        font-family: "Arial Narrow", sans-serif;
+        font-family: 'Arial Narrow', sans-serif;
         font-size: 24px;
 
         position: absolute;
@@ -371,7 +372,7 @@ section {
       }
     }
     select {
-      font-family: "Arial Narrow", sans-serif;
+      font-family: 'Arial Narrow', sans-serif;
       font-size: 24px;
       line-height: 33px;
 
@@ -534,7 +535,7 @@ section {
       &.step5 div,
       &.step5 button {
         &.f {
-          font-family: "Arial Narrow", sans-serif;
+          font-family: 'Arial Narrow', sans-serif;
           font-size: 30px;
 
           top: 110px;
@@ -543,8 +544,7 @@ section {
           width: 600px;
         }
         &.c {
-          font-family: "Arial Narrow", sans-serif;
-
+          font-family: 'Arial Narrow', sans-serif;
           font-size: 20px;
 
           top: 150px;
@@ -571,7 +571,7 @@ footer {
   background: url('../img/line_bg.png');
   div {
     &.content {
-      font-family: "Arial Narrow", sans-serif;
+      font-family: 'Arial Narrow', sans-serif;
       font-size: 14px;
 
       width: 980px;
@@ -635,7 +635,7 @@ footer {
 }
 button {
   &.next {
-      border: none;
+    border: none;
   }
 }
 div {
