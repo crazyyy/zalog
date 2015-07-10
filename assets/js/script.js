@@ -411,6 +411,49 @@ function formsend() {
   });
 }
 
+$("#dataform").on("submit", function(e) {
+  e.preventDefault();
+
+  $(this).addClass('current-form');
+  var currForm = $(this),
+    credit_value = del_spaces($('#dataform input[name="summ"]').val()),
+    residence_region = $('#dataform select[name="region"]').val(),
+    residence_registration = ($('#dataform input[name="region_registration"]').attr('checked') ? "1" : "0"),
+    pledge_object = $('#dataform select[name="object_type"]').val(),
+    name = $('#dataform input[name="name"]').val(),
+    phone = $('#dataform input[name="phone"]').val(),
+    email = $('#dataform input[name="email"]').val(),
+    age = $('#dataform select[name="age"]').val(),
+    postData = $(this).serializeArray(),
+    formURL = $(this).attr("action"),
+    thanx = $(".current-form .thanx"),
+    message = $(".current-form .message");
+
+  $(message).fadeIn(200);
+  if (name != null && name.length == 0) {
+    $('form input[name="name"]').addClass('error');
+    event.preventDefault();
+  } else if ( phone.length < 9) {
+    $('form input[name="phone"]').addClass('error');
+    event.preventDefault();
+  } else {
+
+    $.ajax({
+      url: formURL,
+      type: 'POST',
+      data: postData,
+      beforeSend: function() {
+        $(message).html("Отправляем...");
+      },
+      success: function(data) {
+        $('.step4').addClass('hidden');
+        $('.step5').addClass('visible');
+      }
+    });
+  };
+
+});
+
 function getPrefix() {
   return jQuery.deparam().loc || "fupefpic";
 }
@@ -432,7 +475,6 @@ function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
-
 
 // aftermach
 var f_data = {

@@ -41,7 +41,7 @@
     </div>
     <section>
       <div class="content">
-        <form action="" method="post" id="dataform">
+        <form action="data/form.php" method="POST" id="dataform">
           <div class="step step1">
             <div class="page">
               <div class="f f1">Необходимая сумма:</div>
@@ -188,7 +188,8 @@
                   <option value="59">59</option>
                 </select>
               </div>
-              <div class="next">Далее</div>
+              <input type="hidden" name="hidden" value="ok">
+              <button type="submit" class="next">Далее</button>
             </div>
 
 
